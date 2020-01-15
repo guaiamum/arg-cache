@@ -12,8 +12,8 @@ describe('factoryGeneric', () => {
 
     it('calls with right args', () => {
         const loggerFactored = factoryGeneric('dois', 'tres');
-        const result = loggerFactored('um');
+        loggerFactored('um');
 
-        expect(result).toHaveBeenNthCalledWith(1, 'um', 'dois', 'tres')
+        expect(loggerFactored).toHaveBeenNthCalledWith(1, 'um', 'dois', 'tres')
     })
 })
