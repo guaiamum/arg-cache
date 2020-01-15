@@ -1,0 +1,25 @@
+{
+  "name": "arg-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaiamum/arg-cache.git"
+  },
+  "author": "Cainã Brazil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guaiamum/arg-cache/issues"
+  },
+  "homepage": "https://github.com/guaiamum/arg-cache#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
